@@ -41,7 +41,7 @@ def get_contract(contract_name):
             contract_name (string)
 
         Returns:
-            brownie.networ.contract.ProjectContract: The most recently deployed version of this contract
+            brownie.network.contract.ProjectContract: The most recently deployed version of this contract
     """
 
     contract_type = contract_to_mock[contract_name]
